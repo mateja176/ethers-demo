@@ -1,0 +1,17 @@
+{
+  "name": "ethers-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target browser",
+    "build:watch": "bun run build --watch"
+  },
+  "keywords": [],
+  "author": "Mateja Petrovic <mateja176@gmail.com> (https://github.com/mateja176)",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.12.1",
+    "rango-sdk-basic": "^0.1.47"
+  }
+}

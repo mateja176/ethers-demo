@@ -28,6 +28,7 @@ if (!txTo) {
 
 const performSwap = async () => {
   const signer = await provider.getSigner();
+  console.log({ signer });
   const runner: ContractRunner = signer;
   const contract = new Contract(
     target.toLowerCase(),
